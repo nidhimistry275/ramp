@@ -1,0 +1,49 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .RampButton {
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin: 10px;
+  }
+  
+  .approve {
+    background-color: #4caf50;
+  }
+  
+  .approve:hover {
+    background-color: #45a049;
+  }
+  
+  .decline {
+    background-color: #f44336;
+  }
+  
+  .decline:hover {
+    background-color: #d32f2f;
+  }
+  .transaction-status {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .approved {
+    color: white;
+    background-color: #4caf50;
+  }
+  
+  .declined {
+    color: white;
+    background-color: #f44336;
+  }
+  
